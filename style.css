@@ -1,0 +1,39 @@
+
+
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: azure;
+}
+
+
+.stopwatch{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(230, 224, 224);
+   box-shadow:rgb(81, 48, 48);
+   border-radius: 3px;
+   width: 200px;
+   height: 100px;
+}
+
+#startBtn{
+   background-color: green;
+   color: white;cursor: pointer;
+}
+
+#stopBtn{
+   background-color: red;
+   color: white;
+   cursor: pointer;
+}
+
+#resetBtn{
+   background-color: skyblue;
+   color: white;
+   cursor: pointer;
+}
